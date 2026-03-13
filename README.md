@@ -44,6 +44,10 @@ A reference photo of an `ADAU1701` DSP board:
 
 ![ADAU1701 DSP board](Images/adau1701-board-02.png)
 
+## Firmware
+
+Use AD's SigmaStudio to edit and upload the program into the DSP via USBi programmed, or find a binary image file for a conventional EEPROM programmer: see the [SigmaStudio](SigmaStudio/) folder.
+
 ## Meter scale artwork
 
 This project repurposes a small analog 44C2 200uA microammeter (although you may also use a 50 or 100uA version) and replaces its original scale with a custom RMS / SINAD / THD+N overlay.
