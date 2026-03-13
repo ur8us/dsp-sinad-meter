@@ -4,6 +4,8 @@ A DSP-based audio test instrument built around the Analog Devices `ADAU1701` Sig
 
 **You may go directly to the user's manual section which contains principle of operation, characteristics, parameters as well as the use cases: [Manuals](Docs/)**
 
+For AI lovers, here is an 8-minute automatically generated video describing the device: [Watch on YouTube](https://www.youtube.com/watch?v=tR83iiIdq38)
+
 Below are the build instructions.
 
 The repository contains the design documentation, SigmaStudio DSP project, KiCad hardware files, meter-scale artwork, and reference images used to build the instrument.
@@ -62,4 +64,3 @@ Original scale:
 Modified scale:
 
 ![Modified analog scale](Scale/scale-modified.png)
-
