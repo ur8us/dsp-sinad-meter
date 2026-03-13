@@ -2,7 +2,7 @@
 
 A DSP-based audio test instrument built around the Analog Devices `ADAU1701` SigmaDSP. The project measures RMS level, SINAD, and THD+N on an analog panel meter, and also provides adjustable 1 kHz sine and square-wave test outputs.
 
-You mayo directly to the user's manual which contains principle of operation, characteristics, parameters as well as the use cases. [Manuals](Docs/)
+**You may go directly to the user's manual section which contains principle of operation, characteristics, parameters as well as the use cases: [Manuals](Docs/)**
 
 Below are the build instructions.
 
