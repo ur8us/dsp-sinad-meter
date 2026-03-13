@@ -2,11 +2,11 @@
 
 A DSP-based audio test instrument built around the Analog Devices `ADAU1701` SigmaDSP. The project measures RMS level, SINAD, and THD+N on an analog panel meter, and also provides adjustable 1 kHz sine and square-wave test outputs.
 
-**You may go directly to the user's manual section which contains principle of operation, characteristics, parameters as well as the use cases: [Manuals](Docs/)**
+**You can go directly to the user manual, which covers the principle of operation, characteristics, parameters, and use cases: [Manuals](Docs/)**
 
-For AI lovers, here is an 8-minute automatically generated video describing the device: [Watch on YouTube](https://www.youtube.com/watch?v=tR83iiIdq38)
+For AI enthusiasts, here is an 8-minute automatically generated video about the device: [Watch on YouTube](https://www.youtube.com/watch?v=tR83iiIdq38)
 
-**Below are the build instructions.**
+**The sections below summarize the repository contents and build-related assets.**
 
 The repository contains the design documentation, SigmaStudio DSP project, KiCad hardware files, meter-scale artwork, and reference images used to build the instrument.
 
@@ -48,11 +48,11 @@ A reference photo of an `ADAU1701` DSP board:
 
 ## Firmware
 
-Use AD's SigmaStudio to edit and upload the program into the DSP via USBi programmed, or find a binary image file for a conventional EEPROM programmer: see the [SigmaStudio](SigmaStudio/) folder.
+Use Analog Devices SigmaStudio to edit and upload the program to the DSP via a USBi programmer, or use the binary image file with a conventional EEPROM programmer. See the [SigmaStudio](SigmaStudio/) folder.
 
 ## Meter scale artwork
 
-This project repurposes a small analog 44C2 200uA microammeter (although you may also use a 50 or 100uA version) and replaces its original scale with a custom RMS / SINAD / THD+N overlay.
+This project repurposes a small analog `44C2` `200 uA` microammeter, although a `50 uA` or `100 uA` version may also be used, and replaces its original scale with a custom RMS / SINAD / THD+N overlay.
 
 ![Original 44C2 front view](Images/44c2-02.png)
 ![Original 44C2 rear view](Images/44c2-03.png)
@@ -64,3 +64,9 @@ Original scale:
 Modified scale:
 
 ![Modified analog scale](Scale/scale-modified.png)
+
+## AI use
+
+Here is an imagined portrait of the author created by ChatGPT based on the chat content.
+
+![Imaginary image of the author](Images/sinad-meter-author-02.jpg)
