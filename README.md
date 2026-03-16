@@ -4,6 +4,8 @@ A DSP-based audio test instrument built around the Analog Devices `ADAU1701` Sig
 
 **You can go directly to the user manual, which covers the principle of operation, characteristics, parameters, and use cases: [Manuals](Docs/)**
 
+Video: [How Good Is Your Receiver? SINAD Meter Test](https://www.youtube.com/watch?v=G4UCXUNS1sY)
+
 For AI enthusiasts, here is an 8-minute automatically generated video about the device: [Watch on YouTube](https://www.youtube.com/watch?v=tR83iiIdq38)
 
 **The sections below summarize the repository contents and build-related assets.**
@@ -49,6 +51,9 @@ A reference photo of an `ADAU1701` DSP board:
 ## Firmware
 
 Use Analog Devices SigmaStudio to edit and upload the program to the DSP via a USBi programmer, or use the binary image file with a conventional EEPROM programmer. See the [SigmaStudio](SigmaStudio/) folder.
+
+![SigmaStudio graph](SigmaStudio/sigmastudio22.png)
+
 
 ## Meter scale artwork
 
